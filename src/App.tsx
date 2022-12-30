@@ -1,13 +1,11 @@
-import React from 'react';
+import Feed from './components/Feed'
 
-function App() {
+function App (): any {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Tractian</h1>
-      </header>
-    </div>
-  );
+      <div>
+        <Feed/>
+      </div>
+  )
 }
 
-export default App;
+export default App
